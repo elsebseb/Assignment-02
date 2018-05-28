@@ -16,23 +16,52 @@ body{
     margin-left: auto;
     text-align: center;
 }
+
+.can{
+    min-height: 100px;
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 .img-fluid {
   max-width: 100%;
 }
 
+.on{
+    text-decoration:underline;
+}
+
+.beer{
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    color: white;
+}
+
+.p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.drinks{
+    margin-top: 40px;
+}
 .nav{
     color: white;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Chewy', cursive;
+
     
 }
 
 .quote{
     font-size: 1.5rem;
+    font-family: 'Chewy', cursive;
 }
 
 /* Extra small devices (phones, 600px and down) */
