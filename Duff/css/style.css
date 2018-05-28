@@ -2,15 +2,22 @@ body{
     background-color: #c62d29;
 }
 
-.img{
-     display: block;
-    margin-left: auto;
+.homer{
+  min-height: 200px;
+    max-width: 70%;
+    text-align: center;
     margin-right: auto;
+    margin-left: auto;
 }
 
+.logo{
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
 .img-fluid {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 100%;
 }
 
 .nav{
@@ -19,8 +26,31 @@ body{
     justify-content: center;
     text-align: center;
     font-size: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .quote{
     font-size: 1.5rem;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
