@@ -66,18 +66,49 @@ body{
     font-size: 1.1rem;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Chewy', cursive;
-
-    
+    font-family: 'Chewy', cursive;  
 }
+
+.nav :hover{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Chewy', cursive;
+    text-decoration-line: underline;
+   
+}
+
 
 .quote{
     font-size: 1.5rem;
     font-family: 'Chewy', cursive;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.pitch{
+    font-size: 1.3rem;
+    font-family: 'Chewy', cursive;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    
+    
+    
+    
     
     
 } 
