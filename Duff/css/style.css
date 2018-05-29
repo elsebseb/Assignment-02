@@ -1,5 +1,5 @@
 body{
-    background-color: #c62d29;
+    background-color: #c62d29 !important;
 }
 
 .homer{
@@ -92,6 +92,49 @@ body{
     margin-right: auto;
 }
 
+.contactcontent{
+    
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.firstname{
+    color: white;
+    margin-top: 30px;
+}
+
+.surname{
+    color: white;
+    margin-top: 30px;
+}
+.email{
+    color: white;
+    margin-top: 30px;
+}
+.checkbox{
+    color: white;
+    margin-top: 30px;
+}
+.time{
+    color: white;
+    margin-top: 30px;
+}
+
+.control-label{
+    color: white;
+    margin-top: 30px;
+      
+}
+.note{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
 .pitch{
     font-size: 1.3rem;
     font-family: 'Chewy', cursive;
@@ -105,10 +148,6 @@ body{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
-    
-    
-    
     
     
 } 
